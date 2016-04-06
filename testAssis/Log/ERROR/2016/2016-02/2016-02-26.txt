@@ -1,0 +1,11 @@
+
+ 
+记录时间：2016-02-26 14:54:35,278 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 本机构暂时不允许注册会员!
+   在 Kemai.MSG.DataAccess.VipDal.RegisterVip(String name, String mobile, String sex, DateTime birthday, String pwd, String openId)
+   在 Kemai.MSG.Business.MemberLogic.RegisterVip(String name, String mobile, String sex, String pwd, String birthday, String openId)
+ClientConnectionId:a285769f-a440-4d8c-9454-b494e3a14c1a
+Error Number:50000,State:1,Class:16

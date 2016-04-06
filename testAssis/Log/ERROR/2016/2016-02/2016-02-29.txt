@@ -1,0 +1,1333 @@
+
+ 
+记录时间：2016-02-29 11:32:33,803 
+线程ID:[11] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.CommunicationObjectFaultedException: 通信对象 System.ServiceModel.Channels.ServiceChannel 无法用于通信，因为其处于“出错”状态。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.Heart(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.<>c__DisplayClass1.<Login>b__0()
+
+ 
+记录时间：2016-02-29 12:01:34,834 
+线程ID:[11] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.CommunicationObjectFaultedException: 通信对象 System.ServiceModel.Channels.ServiceChannel 无法用于通信，因为其处于“出错”状态。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.Heart(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.<>c__DisplayClass1.<Login>b__0()
+
+ 
+记录时间：2016-02-29 13:08:12,041 
+线程ID:[10] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ServerTooBusyException: 位于 http://weixin-test.kemai.com.cn/KMMicro_WCF/OfflineMarketingService.svc 的 HTTP 服务不可用。这可能是因为该服务太忙，或是因为未找到侦听指定地址的终结点。请确保地址正确，并在稍后再次尝试访问该服务。 ---> System.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 13:36:55,481 
+线程ID:[11] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.CommunicationObjectFaultedException: 通信对象 System.ServiceModel.Channels.ServiceChannel 无法用于通信，因为其处于“出错”状态。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.Heart(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.<>c__DisplayClass1.<Login>b__0()
+
+ 
+记录时间：2016-02-29 16:27:01,527 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 16:28:01,008 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 16:30:01,048 
+线程ID:[17] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 16:30:59,359 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:cd2d9690-9fc1-4cd0-8a36-4c06affae76f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 16:30:59,439 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:cd2d9690-9fc1-4cd0-8a36-4c06affae76f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 16:30:59,475 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:cd2d9690-9fc1-4cd0-8a36-4c06affae76f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 16:31:01,050 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 16:39:01,163 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 16:40:01,169 
+线程ID:[19] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 16:42:01,207 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 16:43:01,213 
+线程ID:[19] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 16:44:02,028 
+线程ID:[18] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 16:45:01,252 
+线程ID:[19] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 16:46:01,263 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 16:57:01,413 
+线程ID:[18] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 16:58:01,419 
+线程ID:[21] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 16:59:01,433 
+线程ID:[18] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:00:01,454 
+线程ID:[21] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:00:59,221 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:cd2d9690-9fc1-4cd0-8a36-4c06affae76f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 17:00:59,258 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:cd2d9690-9fc1-4cd0-8a36-4c06affae76f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 17:00:59,297 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:cd2d9690-9fc1-4cd0-8a36-4c06affae76f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 17:01:01,479 
+线程ID:[23] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:02:01,473 
+线程ID:[21] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:03:01,482 
+线程ID:[25] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:04:01,504 
+线程ID:[23] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:05:01,518 
+线程ID:[21] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:06:10,529 
+线程ID:[23] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:07:01,544 
+线程ID:[21] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:08:01,600 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:08:54,730 
+线程ID:[21] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ServerTooBusyException: 位于 http://weixin-test.kemai.com.cn/KMMicro_WCF/OfflineMarketingService.svc 的 HTTP 服务不可用。这可能是因为该服务太忙，或是因为未找到侦听指定地址的终结点。请确保地址正确，并在稍后再次尝试访问该服务。 ---> System.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:10:01,240 
+线程ID:[21] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:11:01,593 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:12:01,611 
+线程ID:[21] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:13:01,627 
+线程ID:[24] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:14:01,638 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:15:01,655 
+线程ID:[24] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:16:01,694 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:17:01,705 
+线程ID:[24] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 远程服务器返回了意外响应: (502) Bad Gateway。 ---> System.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:18:09,097 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ServerTooBusyException: 位于 http://weixin-test.kemai.com.cn/KMMicro_WCF/OfflineMarketingService.svc 的 HTTP 服务不可用。这可能是因为该服务太忙，或是因为未找到侦听指定地址的终结点。请确保地址正确，并在稍后再次尝试访问该服务。 ---> System.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:18:36,218 
+线程ID:[24] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.CommunicationException: 接收对 http://weixin-test.kemai.com.cn/KMMicro_WCF/OfflineMarketingService.svc 的 HTTP 响应时发生错误。这可能是由于服务终结点绑定未使用 HTTP 协议造成的。这还可能是由于服务器中止了 HTTP 请求上下文(可能由于服务关闭)所致。有关详细信息，请参见服务器日志。 ---> System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-02-29 17:30:59,228 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:cd2d9690-9fc1-4cd0-8a36-4c06affae76f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 17:30:59,259 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:cd2d9690-9fc1-4cd0-8a36-4c06affae76f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 17:30:59,306 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:cd2d9690-9fc1-4cd0-8a36-4c06affae76f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 18:00:59,240 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:cd2d9690-9fc1-4cd0-8a36-4c06affae76f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 18:01:00,214 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:cd2d9690-9fc1-4cd0-8a36-4c06affae76f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 18:01:00,238 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:cd2d9690-9fc1-4cd0-8a36-4c06affae76f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 18:31:00,270 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:1cf6e4f2-15cb-489e-9584-87569696aa17
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 18:31:00,332 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:1cf6e4f2-15cb-489e-9584-87569696aa17
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 18:31:00,379 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:1cf6e4f2-15cb-489e-9584-87569696aa17
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 18:57:23,091 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_cashno'。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Kemai.MSG.Common.Data.DbHelperSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Kemai.MSG.Common.Data.DbHelperSQL.ExecuteDataset(CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Kemai.MSG.DataAccess.ItemDal.GetCashNoList()
+   在 Kemai.MSG.Business.MallLogic.GetCashNoList()
+ClientConnectionId:1cf6e4f2-15cb-489e-9584-87569696aa17
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 19:01:00,237 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:1cf6e4f2-15cb-489e-9584-87569696aa17
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 19:01:00,269 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:1cf6e4f2-15cb-489e-9584-87569696aa17
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 19:01:00,300 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:1cf6e4f2-15cb-489e-9584-87569696aa17
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 19:30:59,208 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:1cf6e4f2-15cb-489e-9584-87569696aa17
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 19:30:59,239 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:1cf6e4f2-15cb-489e-9584-87569696aa17
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 19:30:59,270 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:1cf6e4f2-15cb-489e-9584-87569696aa17
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 20:00:59,255 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:a5e1c545-a8ae-4c9c-9f55-f7c2cae59511
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 20:00:59,286 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:a5e1c545-a8ae-4c9c-9f55-f7c2cae59511
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 20:00:59,317 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:a5e1c545-a8ae-4c9c-9f55-f7c2cae59511
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 20:30:59,313 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:a7692ca1-e658-4b55-b27c-0414002ccc35
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 20:30:59,359 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:a7692ca1-e658-4b55-b27c-0414002ccc35
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 20:30:59,391 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:a7692ca1-e658-4b55-b27c-0414002ccc35
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 21:00:59,342 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:a06fbeb9-8112-4149-9494-cfb971d363de
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 21:00:59,404 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:a06fbeb9-8112-4149-9494-cfb971d363de
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-02-29 21:00:59,451 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:a06fbeb9-8112-4149-9494-cfb971d363de
+Error Number:2812,State:62,Class:16

@@ -1,0 +1,247 @@
+
+ 
+记录时间：2016-01-28 11:20:19,521 
+线程ID:[1] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“System.ServiceModel.Channels.ServiceChannel”。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.LogonOut(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.LogOut()
+
+ 
+记录时间：2016-01-28 11:22:05,540 
+线程ID:[10] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.CommunicationObjectFaultedException: 通信对象 System.ServiceModel.Channels.ServiceChannel 无法用于通信，因为其处于“出错”状态。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.Heart(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.<>c__DisplayClass1.<Login>b__0()
+
+ 
+记录时间：2016-01-28 11:22:28,428 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.EndpointNotFoundException: 没有终结点在侦听可以接受消息的 http://weixin-test.kemai.com.cn/KMMicro_WCF/OfflineMarketingService.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。 ---> System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-01-28 11:23:28,323 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.EndpointNotFoundException: 没有终结点在侦听可以接受消息的 http://weixin-test.kemai.com.cn/KMMicro_WCF/OfflineMarketingService.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。 ---> System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-01-28 11:24:28,326 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.EndpointNotFoundException: 没有终结点在侦听可以接受消息的 http://weixin-test.kemai.com.cn/KMMicro_WCF/OfflineMarketingService.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。 ---> System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-01-28 11:25:28,349 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.EndpointNotFoundException: 没有终结点在侦听可以接受消息的 http://weixin-test.kemai.com.cn/KMMicro_WCF/OfflineMarketingService.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。 ---> System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-01-28 11:26:28,351 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.EndpointNotFoundException: 没有终结点在侦听可以接受消息的 http://weixin-test.kemai.com.cn/KMMicro_WCF/OfflineMarketingService.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。 ---> System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-01-28 11:27:28,364 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.EndpointNotFoundException: 没有终结点在侦听可以接受消息的 http://weixin-test.kemai.com.cn/KMMicro_WCF/OfflineMarketingService.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。 ---> System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-01-28 15:01:01,180 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.CommunicationException: 基础连接已经关闭: 服务器关闭了本应保持活动状态的连接。 ---> System.Net.WebException: 基础连接已经关闭: 服务器关闭了本应保持活动状态的连接。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-01-28 15:01:02,142 
+线程ID:[10] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.CommunicationObjectFaultedException: 通信对象 System.ServiceModel.Channels.ServiceChannel 无法用于通信，因为其处于“出错”状态。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.Heart(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.<>c__DisplayClass1.<Login>b__0()

@@ -1,0 +1,71 @@
+
+ 
+记录时间：2016-04-05 15:43:33,281 
+线程ID:[1] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：LogOutBranch
+System.ServiceModel.CommunicationException: 服务器未提供有意义的回复；这可能是由协定不匹配、会话过早关闭或内部服务器错误引起的。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.LogonOut(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.LogOutBranch()
+
+ 
+记录时间：2016-04-05 15:45:23,993 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 不存在收银机号=
+   在 Kemai.MSG.DataAccess.ItemDal.InsertsaleflowEntity(String sheetno, String branchNo, String operID, String cashNo)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:61efa3ed-ab10-42ee-b7e1-fa95419b9a8b
+Error Number:50000,State:1,Class:16
+
+ 
+记录时间：2016-04-05 15:45:34,039 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 不存在收银机号=
+   在 Kemai.MSG.DataAccess.ItemDal.InsertsaleflowEntity(String sheetno, String branchNo, String operID, String cashNo)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:61efa3ed-ab10-42ee-b7e1-fa95419b9a8b
+Error Number:50000,State:1,Class:16
+
+ 
+记录时间：2016-04-05 15:45:55,178 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 不存在收银机号=
+   在 Kemai.MSG.DataAccess.ItemDal.InsertsaleflowEntity(String sheetno, String branchNo, String operID, String cashNo)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:61efa3ed-ab10-42ee-b7e1-fa95419b9a8b
+Error Number:50000,State:1,Class:16
+
+ 
+记录时间：2016-04-05 18:15:16,619 
+线程ID:[1] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：LogOutBranch
+System.ServiceModel.CommunicationException: 服务器未提供有意义的回复；这可能是由协定不匹配、会话过早关闭或内部服务器错误引起的。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.LogonOut(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.LogOutBranch()

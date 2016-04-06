@@ -1,0 +1,321 @@
+
+ 
+记录时间：2016-03-02 11:04:02,364 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainForm”。
+
+Server stack trace: 
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 Kemai.MSG.Assistant.MainForm.setLabelText(ToolStripStatusLabel lb, Color color, String msg)
+   在 Kemai.MSG.Assistant.MainForm.DoAsyncIntenetCheck(Func`1 presenterAction, ToolStripImageBoxEx tsib, ToolStripStatusLabel tssl)
+   在 System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   在 System.Runtime.Remoting.Messaging.StackBuilderSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.EndInvokeHelper(Message reqMsg, Boolean bProxyCase)
+   在 System.Runtime.Remoting.Proxies.RemotingProxy.Invoke(Object NotUsed, MessageData& msgData)
+   在 System.Func`4.EndInvoke(IAsyncResult result)
+   在 Kemai.MSG.Assistant.MainForm.<>c__DisplayClass8.<DoAsyncIntenetCheckMethod>b__7(IAsyncResult aresult)
+   在 System.Runtime.Remoting.Messaging.AsyncResult.SyncProcessMessage(IMessage msg)
+   在 System.Runtime.Remoting.Messaging.StackBuilderSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+   在 System.Runtime.Remoting.Proxies.AgileAsyncWorkerItem.ThreadPoolCallBack(Object o)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+ 
+记录时间：2016-03-02 15:00:24,136 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 您的会员卡不允许储值
+   在 Kemai.MSG.DataAccess.VipDal.CheckFillCardNo(String vip_no)
+   在 Kemai.MSG.Business.MemberLogic.CheckFillCardNo(String vip_no)
+ClientConnectionId:e0b7a06e-5610-4888-9915-1084b21caf5e
+Error Number:50000,State:1,Class:16
+
+ 
+记录时间：2016-03-02 16:17:47,779 
+线程ID:[14] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 从数据类型 nvarchar 转换为 datetime 时出错。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:a49f4d03-4e00-4a98-92a0-dda30c22f94a
+Error Number:8114,State:5,Class:16
+
+ 
+记录时间：2016-03-02 16:21:10,065 
+线程ID:[14] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 从数据类型 nvarchar 转换为 datetime 时出错。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:a49f4d03-4e00-4a98-92a0-dda30c22f94a
+Error Number:8114,State:5,Class:16
+
+ 
+记录时间：2016-03-02 16:21:13,869 
+线程ID:[14] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 从数据类型 nvarchar 转换为 datetime 时出错。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:a49f4d03-4e00-4a98-92a0-dda30c22f94a
+Error Number:8114,State:5,Class:16
+
+ 
+记录时间：2016-03-02 16:21:18,786 
+线程ID:[14] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 从数据类型 nvarchar 转换为 datetime 时出错。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:a49f4d03-4e00-4a98-92a0-dda30c22f94a
+Error Number:8114,State:5,Class:16
+
+ 
+记录时间：2016-03-02 16:21:33,702 
+线程ID:[14] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 从数据类型 nvarchar 转换为 datetime 时出错。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:a49f4d03-4e00-4a98-92a0-dda30c22f94a
+Error Number:8114,State:5,Class:16
+
+ 
+记录时间：2016-03-02 16:39:58,090 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 从数据类型 nvarchar 转换为 datetime 时出错。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:a49f4d03-4e00-4a98-92a0-dda30c22f94a
+Error Number:8114,State:5,Class:16
+
+ 
+记录时间：2016-03-02 16:42:06,601 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 从数据类型 nvarchar 转换为 datetime 时出错。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:a49f4d03-4e00-4a98-92a0-dda30c22f94a
+Error Number:8114,State:5,Class:16
+
+ 
+记录时间：2016-03-02 16:42:40,201 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 从数据类型 nvarchar 转换为 datetime 时出错。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:a49f4d03-4e00-4a98-92a0-dda30c22f94a
+Error Number:8114,State:5,Class:16
+
+ 
+记录时间：2016-03-02 16:48:14,740 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 从数据类型 nvarchar 转换为 datetime 时出错。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:a49f4d03-4e00-4a98-92a0-dda30c22f94a
+Error Number:8114,State:5,Class:16
+
+ 
+记录时间：2016-03-02 16:48:17,709 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 从数据类型 nvarchar 转换为 datetime 时出错。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:a49f4d03-4e00-4a98-92a0-dda30c22f94a
+Error Number:8114,State:5,Class:16
+
+ 
+记录时间：2016-03-02 16:48:54,139 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 从数据类型 nvarchar 转换为 datetime 时出错。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:a49f4d03-4e00-4a98-92a0-dda30c22f94a
+Error Number:8114,State:5,Class:16
+
+ 
+记录时间：2016-03-02 16:50:59,152 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 不存在收银机号=
+   在 Kemai.MSG.DataAccess.ItemDal.InsertsaleflowEntity(String sheetno, String branchNo, String operID, String cashNo)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:9e7fa2e3-6383-4d26-ac9a-b0b32cf067d2
+Error Number:50000,State:1,Class:16
+
+ 
+记录时间：2016-03-02 16:51:31,637 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束 'pk_kmmicro_pos_t_payflow_pre'。不能在对象 'dbo.kmmicro_pos_t_payflow_pre' 中插入重复键。
+语句已终止。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:9e7fa2e3-6383-4d26-ac9a-b0b32cf067d2
+Error Number:2627,State:1,Class:14
+
+ 
+记录时间：2016-03-02 16:51:33,585 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束 'pk_kmmicro_pos_t_payflow_pre'。不能在对象 'dbo.kmmicro_pos_t_payflow_pre' 中插入重复键。
+语句已终止。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:9e7fa2e3-6383-4d26-ac9a-b0b32cf067d2
+Error Number:2627,State:1,Class:14
+
+ 
+记录时间：2016-03-02 16:51:39,445 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束 'pk_kmmicro_pos_t_payflow_pre'。不能在对象 'dbo.kmmicro_pos_t_payflow_pre' 中插入重复键。
+语句已终止。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:9e7fa2e3-6383-4d26-ac9a-b0b32cf067d2
+Error Number:2627,State:1,Class:14
+
+ 
+记录时间：2016-03-02 16:58:07,426 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束 'pk_kmmicro_pos_t_payflow_pre'。不能在对象 'dbo.kmmicro_pos_t_payflow_pre' 中插入重复键。
+语句已终止。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:22ccfda9-5153-4146-a44a-12363afb57eb
+Error Number:2627,State:1,Class:14
+
+ 
+记录时间：2016-03-02 16:58:23,961 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束 'pk_kmmicro_pos_t_payflow_pre'。不能在对象 'dbo.kmmicro_pos_t_payflow_pre' 中插入重复键。
+语句已终止。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:22ccfda9-5153-4146-a44a-12363afb57eb
+Error Number:2627,State:1,Class:14
+
+ 
+记录时间：2016-03-02 16:59:20,526 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束 'pk_kmmicro_pos_t_payflow_pre'。不能在对象 'dbo.kmmicro_pos_t_payflow_pre' 中插入重复键。
+语句已终止。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:22ccfda9-5153-4146-a44a-12363afb57eb
+Error Number:2627,State:1,Class:14
+
+ 
+记录时间：2016-03-02 17:21:46,922 
+线程ID:[17] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 不存在收银机号=
+   在 Kemai.MSG.DataAccess.ItemDal.InsertsaleflowEntity(String sheetno, String branchNo, String operID, String cashNo)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:22ccfda9-5153-4146-a44a-12363afb57eb
+Error Number:50000,State:1,Class:16
+
+ 
+记录时间：2016-03-02 17:21:54,690 
+线程ID:[17] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束 'pk_kmmicro_pos_t_payflow_pre'。不能在对象 'dbo.kmmicro_pos_t_payflow_pre' 中插入重复键。
+语句已终止。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:22ccfda9-5153-4146-a44a-12363afb57eb
+Error Number:2627,State:1,Class:14
+
+ 
+记录时间：2016-03-02 18:17:57,134 
+线程ID:[11] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.CommunicationObjectFaultedException: 通信对象 System.ServiceModel.Channels.ServiceChannel 无法用于通信，因为其处于“出错”状态。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.CommunicationObject.ThrowIfDisposedOrNotOpen()
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.Heart(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.<>c__DisplayClass1.<Login>b__0()
+
+ 
+记录时间：2016-03-02 20:30:06,271 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:7d3bbc78-5e2f-4ffd-939a-1d705e8411b5
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-02 20:30:06,458 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:7d3bbc78-5e2f-4ffd-939a-1d705e8411b5
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-02 20:30:06,505 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:7d3bbc78-5e2f-4ffd-939a-1d705e8411b5
+Error Number:2812,State:62,Class:16

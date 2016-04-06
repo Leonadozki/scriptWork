@@ -1,0 +1,2377 @@
+
+ 
+记录时间：2016-03-15 09:30:13,662 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:dd966b81-e8d0-4794-94ad-7933852ea357
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 09:30:13,818 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:dd966b81-e8d0-4794-94ad-7933852ea357
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 09:30:13,865 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:dd966b81-e8d0-4794-94ad-7933852ea357
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 09:30:13,896 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:dd966b81-e8d0-4794-94ad-7933852ea357
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 09:30:13,928 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:dd966b81-e8d0-4794-94ad-7933852ea357
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 09:30:13,959 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:dd966b81-e8d0-4794-94ad-7933852ea357
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 10:00:13,374 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 10:00:13,405 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 10:00:13,452 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 10:00:13,483 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 10:00:13,515 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 10:00:13,561 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 10:30:13,384 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 10:30:13,415 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 10:30:13,446 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 10:30:13,477 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 10:30:13,508 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 10:30:13,542 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 11:00:13,359 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 11:00:13,390 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 11:00:13,421 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 11:00:13,453 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 11:00:13,484 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 11:00:13,531 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 11:30:12,362 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 11:30:12,393 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 11:30:12,424 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 11:30:12,471 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 11:30:12,502 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 11:30:12,533 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 12:00:13,446 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 12:00:13,477 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 12:00:13,508 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 12:00:13,539 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 12:00:13,570 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 12:00:13,602 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 12:30:13,404 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 12:30:13,436 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 12:30:13,482 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 12:30:13,514 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 12:30:13,545 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 12:30:13,576 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 13:00:13,483 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 13:00:13,514 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 13:00:13,545 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 13:00:13,888 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 13:00:13,919 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 13:00:13,951 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 13:30:13,422 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 13:30:13,468 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 13:30:13,500 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 13:30:13,843 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 13:30:13,874 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 13:30:13,905 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:00:13,452 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:00:13,483 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:00:13,514 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:00:13,545 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:00:13,577 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:00:13,935 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:30:13,513 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:30:13,544 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:30:13,575 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:30:13,606 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:30:13,637 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:30:13,669 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:33:22,493 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_employee'。
+   在 Kemai.MSG.DataAccess.VipDal.GetOfflineEmployee()
+   在 Kemai.MSG.Business.MallLogic.GetOfflineEmployeeForMall()
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:33:30,861 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_employee'。
+   在 Kemai.MSG.DataAccess.VipDal.GetOfflineEmployee()
+   在 Kemai.MSG.Business.MallLogic.GetOfflineEmployeeForMall()
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:33:44,458 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_employee'。
+   在 Kemai.MSG.DataAccess.VipDal.GetOfflineEmployee()
+   在 Kemai.MSG.Business.MallLogic.GetOfflineEmployeeForMall()
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:33:59,698 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_employee'。
+   在 Kemai.MSG.DataAccess.VipDal.GetOfflineEmployee()
+   在 Kemai.MSG.Business.MallLogic.GetOfflineEmployeeForMall()
+ClientConnectionId:df706b0f-4739-4e4a-ab66-bae26d0969e0
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:34:55,694 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_employee'。
+   在 Kemai.MSG.DataAccess.VipDal.GetOfflineEmployee()
+   在 Kemai.MSG.Business.MallLogic.GetOfflineEmployeeForMall()
+ClientConnectionId:df03c30e-5fc5-4b08-9166-bfc6e5a92a87
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:35:30,246 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_employee'。
+   在 Kemai.MSG.DataAccess.VipDal.GetOfflineEmployee()
+   在 Kemai.MSG.Business.MallLogic.GetOfflineEmployeeForMall()
+ClientConnectionId:df03c30e-5fc5-4b08-9166-bfc6e5a92a87
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:39:25,972 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_employee'。
+   在 Kemai.MSG.DataAccess.VipDal.GetOfflineEmployee()
+   在 Kemai.MSG.Business.MallLogic.GetOfflineEmployeeForMall()
+ClientConnectionId:86b54b5c-ea19-4564-b8ff-19cb09e0b7c8
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:39:38,810 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_employee'。
+   在 Kemai.MSG.DataAccess.VipDal.GetOfflineEmployee()
+   在 Kemai.MSG.Business.MallLogic.GetOfflineEmployeeForMall()
+ClientConnectionId:86b54b5c-ea19-4564-b8ff-19cb09e0b7c8
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 14:57:58,621 
+线程ID:[1] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：LogOutBranch
+System.ServiceModel.CommunicationException: 服务器未提供有意义的回复；这可能是由协定不匹配、会话过早关闭或内部服务器错误引起的。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.LogonOut(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.LogOutBranch()
+
+ 
+记录时间：2016-03-15 15:00:16,522 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:8291447f-2ed0-4f91-a388-cf69ae398559
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 15:00:16,584 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:8291447f-2ed0-4f91-a388-cf69ae398559
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 15:00:16,615 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:8291447f-2ed0-4f91-a388-cf69ae398559
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 15:00:16,647 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:8291447f-2ed0-4f91-a388-cf69ae398559
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 15:00:16,678 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:8291447f-2ed0-4f91-a388-cf69ae398559
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 15:00:16,709 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:8291447f-2ed0-4f91-a388-cf69ae398559
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 15:22:04,063 
+线程ID:[1] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：LogOutBranch
+System.ServiceModel.CommunicationException: 服务器未提供有意义的回复；这可能是由协定不匹配、会话过早关闭或内部服务器错误引起的。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.LogonOut(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.LogOutBranch()
+
+ 
+记录时间：2016-03-15 16:30:12,562 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 16:30:12,656 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 16:30:12,679 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 16:30:12,710 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 16:30:12,742 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 16:30:12,773 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:00:12,527 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:00:12,558 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:00:12,589 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:00:12,620 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:00:12,651 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:00:12,683 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:30:12,513 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:30:12,559 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:30:12,591 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:30:12,622 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:30:12,653 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:30:12,684 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:42:44,478 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_employee'。
+   在 Kemai.MSG.DataAccess.VipDal.GetOfflineEmployee()
+   在 Kemai.MSG.Business.MallLogic.GetOfflineEmployeeForMall()
+ClientConnectionId:21c5b32b-0d8b-4b79-a38b-e0fe8fe28dcf
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:13,907 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:14,365 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:14,466 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:14,563 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:14,661 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:14,785 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:14,882 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:14,979 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:15,069 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:15,174 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:15,268 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:15,676 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:16,068 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:16,167 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:16,263 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:16,365 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:16,462 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:16,552 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:16,656 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:16,753 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:16,848 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:16,945 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:17,041 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:17,135 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:17,235 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:17,338 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:17,440 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:17,541 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:17,636 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:17,735 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:17,819 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:17,932 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:18,326 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:18,422 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:18,517 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:18,602 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:18,703 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:18,812 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:18,902 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:19,311 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:19,409 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:19,508 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:19,604 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:19,700 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:19,798 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:19,885 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:19,986 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:20,082 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:20,177 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:20,268 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:20,367 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:20,465 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:20,862 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:21,842 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:21,949 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:22,045 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:22,140 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:22,237 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:22,336 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:22,419 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:22,526 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:22,621 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:22,718 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:22,824 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:22,918 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:23,015 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:23,110 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:23,202 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:23,309 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:23,403 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:24,408 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:24,507 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:24,900 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:25,906 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:34,402 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:34,502 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:34,603 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:34,705 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:35,176 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:35,278 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:35,368 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:35,473 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:35,570 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:50:35,666 
+线程ID:[8] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_get_iteminfo'。
+   在 Kemai.MSG.DataAccess.ItemDal.GetItemInfo(String itemNo)
+   在 Kemai.MSG.Business.MallLogic.GetItemInfo(String itemno)
+ClientConnectionId:2f282473-4a1f-445d-aa1e-ccce868365e4
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 17:59:44,353 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:c25ae6de-5000-454a-b358-8daa8b07354c
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 18:00:44,613 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:c25ae6de-5000-454a-b358-8daa8b07354c
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 18:30:13,579 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:43a55e2f-acc4-4473-9b3b-521639f65e79
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 18:30:13,657 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:43a55e2f-acc4-4473-9b3b-521639f65e79
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 18:30:13,688 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:43a55e2f-acc4-4473-9b3b-521639f65e79
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 18:30:13,719 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:43a55e2f-acc4-4473-9b3b-521639f65e79
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 18:30:13,750 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:43a55e2f-acc4-4473-9b3b-521639f65e79
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 18:30:13,781 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:43a55e2f-acc4-4473-9b3b-521639f65e79
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 18:51:33,135 
+线程ID:[1] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：LogOutBranch
+System.ServiceModel.CommunicationException: 服务器未提供有意义的回复；这可能是由协定不匹配、会话过早关闭或内部服务器错误引起的。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.LogonOut(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.LogOutBranch()
+
+ 
+记录时间：2016-03-15 20:00:12,751 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 20:00:12,836 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 20:00:12,867 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 20:00:12,914 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 20:00:12,945 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 20:00:12,977 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 20:30:12,599 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 20:30:12,630 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 20:30:12,677 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 20:30:12,708 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 20:30:12,740 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 20:30:12,771 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 21:00:12,631 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 21:00:12,662 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 21:00:12,693 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 21:00:12,724 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 21:00:12,755 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 21:00:12,787 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:b0a9220d-a630-47ca-9bc9-9fbd3d31cba3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-15 21:00:43,773 
+线程ID:[1] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：LogOutBranch
+System.ServiceModel.CommunicationException: 服务器未提供有意义的回复；这可能是由协定不匹配、会话过早关闭或内部服务器错误引起的。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.LogonOut(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.LogOutBranch()

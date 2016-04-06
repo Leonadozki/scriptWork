@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Tables>
+
+  <Table TabelName="kmmicro_t_order_master(订单主表)" TabelCode="kmmicro_t_order_master" TabelComment="订单主表">
+    <Columns>
+      <Column Name="单号" Code="Sheet_No" Comment="单号" DataType="varchar" Length="32" Precision="0" Primary="true" Identity="false" Mandatory="false" Default="" />
+      <Column Name="仓库" Code="BranchNo" Comment="仓库" DataType="varchar" Length="20" Precision="0" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="单据金额" Code="Amount" Comment="单据金额" DataType="numeric" Length="14" Precision="2" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="OpenId" Code="OpenId" Comment="OpenId" DataType="varchar" Length="32" Precision="0" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="付款标志" Code="PayFlag" Comment="付款标志" DataType="char" Length="1" Precision="0" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="付款方式" Code="PayWay" Comment="付款方式" DataType="char" Length="2" Precision="0" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="提货方式" Code="DeliveryMode" Comment="提货方式" DataType="char" Length="1" Precision="0" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="联系人" Code="Linkman" Comment="联系人" DataType="varchar" Length="20" Precision="0" Primary="false" Identity="false" Mandatory="true" Default="" />
+      <Column Name="联系电话" Code="ContactTel" Comment="联系电话" DataType="varchar" Length="15" Precision="0" Primary="false" Identity="false" Mandatory="true" Default="" />
+      <Column Name="送货地址" Code="Address" Comment="送货地址" DataType="varchar" Length="100" Precision="0" Primary="false" Identity="false" Mandatory="true" Default="" />
+      <Column Name="创建时间" Code="CreateDate" Comment="创建时间" DataType="datetime" Length="23" Precision="3" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="订单状态" Code="Status" Comment="订单状态" DataType="char" Length="1" Precision="0" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="备注" Code="Memo" Comment="备注" DataType="varchar" Length="255" Precision="0" Primary="false" Identity="false" Mandatory="true" Default="" />
+      <Column Name="送货时间" Code="DeliveryDate" Comment="送货时间" DataType="datetime" Length="23" Precision="3" Primary="false" Identity="false" Mandatory="true" Default="" />
+      <Column Name="会员卡" Code="CardId" Comment="会员卡" DataType="varchar" Length="20" Precision="0" Primary="false" Identity="false" Mandatory="true" Default="" />
+      <Column Name="流水号" Code="flow_no" Comment="流水号" DataType="varchar" Length="14" Precision="0" Primary="false" Identity="false" Mandatory="true" Default="" />
+      <Column Name="送货人" Code="send_man" Comment="最后修改时间" DataType="char" Length="4" Precision="0" Primary="false" Identity="false" Mandatory="true" Default="" />
+      <Column Name="支付方式" Code="PayMent" Comment="支付方式" DataType="char" Length="1" Precision="0" Primary="false" Identity="false" Mandatory="false" Default="0" />
+    </Columns>
+  </Table>
+
+  <Table TabelName="kmmicro_t_order_detail(订单明细)" TabelCode="kmmicro_t_order_detail" TabelComment="订单明细">
+    <Columns>
+      <Column Name="流水号" Code="FlowId" Comment="流水号" DataType="numeric" Length="16" Precision="0" Primary="true" Identity="true" Mandatory="false" Default="" />
+      <Column Name="单号" Code="Sheet_No" Comment="单号" DataType="varchar" Length="32" Precision="0" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="序号" Code="Sequence" Comment="序号" DataType="int" Length="10" Precision="0" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="商品编码" Code="ItemNo" Comment="商品编码" DataType="varchar" Length="20" Precision="0" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="销售数量" Code="SaleQty" Comment="销售数量" DataType="numeric" Length="12" Precision="4" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="单价" Code="SalePrice" Comment="单价" DataType="numeric" Length="12" Precision="4" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="小计" Code="SaleAmt" Comment="小计" DataType="numeric" Length="12" Precision="4" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="备注" Code="Memo" Comment="备注" DataType="varchar" Length="255" Precision="0" Primary="false" Identity="false" Mandatory="true" Default="" />
+    </Columns>
+  </Table>
+
+  <Table TabelName="kmmicro_pos_t_payflow_pre(订单付款表)" TabelCode="kmmicro_pos_t_payflow_pre" TabelComment="订单付款表">
+    <Columns>
+      <Column Name="单号" Code="sheet_no" Comment="单号" DataType="varchar" Length="32" Precision="0" Primary="true" Identity="false" Mandatory="false" Default="" />
+      <Column Name="顺序号" Code="flow_id" Comment="顺序号" DataType="int" Length="10" Precision="0" Primary="true" Identity="false" Mandatory="false" Default="" />
+      <Column Name="付款金额" Code="pay_amount" Comment="付款金额" DataType="numeric" Length="9" Precision="2" Primary="false" Identity="false" Mandatory="true" Default="" />
+      <Column Name="付款方式" Code="pay_way" Comment="付款方式" DataType="char" Length="1" Precision="0" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="币种" Code="coin_no" Comment="币种" DataType="varchar" Length="3" Precision="0" Primary="false" Identity="false" Mandatory="true" Default="" />
+      <Column Name="卡号" Code="card_no" Comment="卡号" DataType="varchar" Length="20" Precision="0" Primary="false" Identity="false" Mandatory="true" Default="" />
+      <Column Name="销售方式" Code="sell_way" Comment="销售方式" DataType="varchar" Length="1" Precision="0" Primary="false" Identity="false" Mandatory="true" Default="" />
+    </Columns>
+  </Table>
+
+  <Table TabelName="kmmicro_t_trans_log(操作日志表)" TabelCode="kmmicro_t_trans_log" TabelComment="操作日志表">
+    <Columns>
+      <Column Name="流水号" Code="nflow_id" Comment="流水号" DataType="int" Length="10" Precision="0" Primary="true" Identity="true" Mandatory="false" Default="" />
+      <Column Name="类型" Code="fun" Comment="类型" DataType="char" Length="1" Precision="0" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="type" Code="type" Comment="type" DataType="char" Length="1" Precision="0" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="内容" Code="msgc" Comment="内容" DataType="varchar" Length="4000" Precision="0" Primary="false" Identity="false" Mandatory="true" Default="" />
+      <Column Name="操作时间" Code="oper_date" Comment="操作时间" DataType="datetime" Length="23" Precision="3" Primary="false" Identity="false" Mandatory="true" Default="" />
+      <Column Name="标识" Code="flag" Comment="标识" DataType="varchar" Length="1" Precision="0" Primary="false" Identity="false" Mandatory="true" Default="" />
+    </Columns>
+  </Table>
+
+  <Table TabelName="kmmicro_t_trans_time(上传时间表)" TabelCode="kmmicro_t_trans_time" TabelComment="上传时间表">
+    <Columns>
+      <Column Name="表名" Code="type" Comment="表名" DataType="varchar" Length="50" Precision="0" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="上传时间" Code="up_time" Comment="上传时间" DataType="datetime" Length="23" Precision="3" Primary="false" Identity="false" Mandatory="true" Default="" />
+    </Columns>
+  </Table>
+
+  <Table TabelName="kmmicro_t_paymentFlow(微信付款流水)" TabelCode="kmmicro_t_paymentFlow" TabelComment="微信付款流水">
+    <Columns>
+      <Column Name="单号" Code="SheetNo" Comment="单号" DataType="varchar" Length="32" Precision="0" Primary="true" Identity="false" Mandatory="false" Default="" />
+      <Column Name="仓库" Code="BranchNo" Comment="仓库" DataType="varchar" Length="20" Precision="0" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="付款金额" Code="Amount" Comment="付款金额" DataType="numeric" Length="14" Precision="2" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="付款方式" Code="Status" Comment="付款方式" DataType="char" Length="1" Precision="0" Primary="false" Identity="false" Mandatory="false" Default="0" />
+      <Column Name="付款状态" Code="PayStatus" Comment="付款状态" DataType="char" Length="1" Precision="0" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="创建时间" Code="CreateDate" Comment="创建时间" DataType="datetime" Length="23" Precision="3" Primary="false" Identity="false" Mandatory="false" Default="" />
+      <Column Name="付款时间" Code="PayDate" Comment="付款时间" DataType="datetime" Length="23" Precision="3" Primary="false" Identity="false" Mandatory="true" Default="" />
+      <Column Name="送货人" Code="DeliveryMan" Comment="送货人" DataType="varchar" Length="40" Precision="0" Primary="false" Identity="false" Mandatory="true" Default="" />
+      <Column Name="微信订单号" Code="WXSheetNo" Comment="微信订单号" DataType="varchar" Length="32" Precision="0" Primary="false" Identity="false" Mandatory="true" Default="" />
+
+    </Columns>
+  </Table>
+
+</Tables>
+

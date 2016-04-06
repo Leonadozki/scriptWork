@@ -1,0 +1,1754 @@
+
+ 
+记录时间：2016-03-08 14:27:51,206 
+线程ID:[14] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：LogInBranch
+System.ServiceModel.CommunicationObjectFaultedException: 通信对象 System.ServiceModel.Channels.ServiceChannel 无法用于通信，因为其处于“出错”状态。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Close()
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 System.ServiceModel.ICommunicationObject.Close()
+   在 Kemai.MSG.Business.ClientLogin.LogInBranch()
+
+ 
+记录时间：2016-03-08 14:28:28,864 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.CommunicationException: 基础连接已经关闭: 服务器关闭了本应保持活动状态的连接。 ---> System.Net.WebException: 基础连接已经关闭: 服务器关闭了本应保持活动状态的连接。 ---> System.IO.IOException: 无法从传输连接中读取数据: 您的主机中的软件中止了一个已建立的连接。。 ---> System.Net.Sockets.SocketException: 您的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-03-08 14:28:31,501 
+线程ID:[14] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：LogInBranch
+System.TimeoutException: 发送到 net.tcp://weixin-test.kemai.com.cn:16901/KMMicro_WCF/MicroDuplexService.svc 的请求操作在配置的超时(00:00:20)内未收到回复。分配给此操作的时间可能已经是更长超时的一部分。这可能由于服务仍在处理操作或服务无法发送回复消息。请考虑增加操作超时(将通道/代理转换为 IContextChannel 并设置 OperationTimeout 属性)并确保服务能够连接到客户端。
+
+Server stack trace: 
+   在 System.ServiceModel.Dispatcher.DuplexChannelBinder.SyncDuplexRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.LogonIn(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.LogInBranch()
+
+ 
+记录时间：2016-03-08 16:18:57,592 
+线程ID:[1] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：LogOutBranch
+System.ServiceModel.CommunicationException: 服务器未提供有意义的回复；这可能是由协定不匹配、会话过早关闭或内部服务器错误引起的。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.LogonOut(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.LogOutBranch()
+
+ 
+记录时间：2016-03-08 16:19:04,752 
+线程ID:[1] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：LogOutBranch
+System.ServiceModel.CommunicationException: 服务器未提供有意义的回复；这可能是由协定不匹配、会话过早关闭或内部服务器错误引起的。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.LogonOut(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.LogOutBranch()
+
+ 
+记录时间：2016-03-08 17:28:14,526 
+线程ID:[18] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:7b2bd41a-7472-4ec8-95ff-28855ccc831f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 17:29:14,474 
+线程ID:[18] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:7b2bd41a-7472-4ec8-95ff-28855ccc831f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 17:30:14,491 
+线程ID:[18] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:7b2bd41a-7472-4ec8-95ff-28855ccc831f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 17:31:14,505 
+线程ID:[18] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:7b2bd41a-7472-4ec8-95ff-28855ccc831f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 17:32:14,538 
+线程ID:[19] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:7b2bd41a-7472-4ec8-95ff-28855ccc831f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 17:33:14,539 
+线程ID:[19] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:7b2bd41a-7472-4ec8-95ff-28855ccc831f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 17:34:14,538 
+线程ID:[19] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:7b2bd41a-7472-4ec8-95ff-28855ccc831f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 17:35:14,583 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:7b2bd41a-7472-4ec8-95ff-28855ccc831f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 17:36:14,597 
+线程ID:[21] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:7b2bd41a-7472-4ec8-95ff-28855ccc831f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 17:37:14,627 
+线程ID:[21] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:7b2bd41a-7472-4ec8-95ff-28855ccc831f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 17:38:14,640 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:7b2bd41a-7472-4ec8-95ff-28855ccc831f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 17:39:14,638 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:7b2bd41a-7472-4ec8-95ff-28855ccc831f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 17:40:14,641 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:7b2bd41a-7472-4ec8-95ff-28855ccc831f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 17:41:14,673 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:7b2bd41a-7472-4ec8-95ff-28855ccc831f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 17:42:14,687 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:7b2bd41a-7472-4ec8-95ff-28855ccc831f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 17:43:14,685 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:7b2bd41a-7472-4ec8-95ff-28855ccc831f
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 18:46:29,107 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:156dd007-183b-418f-858b-39e68f4d2ad2
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 18:47:29,136 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:156dd007-183b-418f-858b-39e68f4d2ad2
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 18:48:29,155 
+线程ID:[17] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:156dd007-183b-418f-858b-39e68f4d2ad2
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 18:49:29,141 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:156dd007-183b-418f-858b-39e68f4d2ad2
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 18:50:29,148 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:156dd007-183b-418f-858b-39e68f4d2ad2
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 18:51:29,166 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:156dd007-183b-418f-858b-39e68f4d2ad2
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 18:52:29,175 
+线程ID:[17] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:156dd007-183b-418f-858b-39e68f4d2ad2
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 18:53:29,188 
+线程ID:[17] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:156dd007-183b-418f-858b-39e68f4d2ad2
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 18:54:29,205 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:156dd007-183b-418f-858b-39e68f4d2ad2
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 18:55:29,221 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:156dd007-183b-418f-858b-39e68f4d2ad2
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 18:56:29,232 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:156dd007-183b-418f-858b-39e68f4d2ad2
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 18:59:57,318 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:9c11c9fa-ac10-4216-9c97-14f8f3ca8857
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:00:57,302 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:9c11c9fa-ac10-4216-9c97-14f8f3ca8857
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:01:57,317 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:9c11c9fa-ac10-4216-9c97-14f8f3ca8857
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:02:57,334 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:03:57,350 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:04:57,352 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:05:57,492 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:06:57,383 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:07:57,401 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:08:57,413 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:09:57,431 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:10:57,433 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:11:57,515 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:12:57,528 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:13:57,547 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:14:57,551 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:15:57,576 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:16:57,578 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:17:57,597 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:18:57,617 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:19:57,622 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:20:57,632 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:972bf3bd-74f1-477a-b5be-69fbff226b14
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:24:34,239 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:6c003bcb-960a-4daf-9987-73f416b39fb3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:25:34,229 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:6c003bcb-960a-4daf-9987-73f416b39fb3
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:26:34,235 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:5cc2580f-2f9b-490a-9c96-0162b608a302
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:27:34,250 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:5cc2580f-2f9b-490a-9c96-0162b608a302
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:28:34,250 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:5cc2580f-2f9b-490a-9c96-0162b608a302
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:29:34,267 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:5cc2580f-2f9b-490a-9c96-0162b608a302
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:30:34,284 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:5cc2580f-2f9b-490a-9c96-0162b608a302
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:31:34,287 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:5cc2580f-2f9b-490a-9c96-0162b608a302
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:33:31,594 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:64db5d66-8f9b-4b55-a8ae-01d0afb4e781
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:34:31,588 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:64db5d66-8f9b-4b55-a8ae-01d0afb4e781
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:35:31,596 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:64db5d66-8f9b-4b55-a8ae-01d0afb4e781
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:36:31,613 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:37:31,631 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:38:31,646 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:39:31,654 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:40:31,675 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:41:31,690 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:42:31,694 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:43:31,712 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:44:31,731 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:45:31,736 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:46:31,757 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:47:31,760 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:48:31,781 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:49:31,801 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:50:31,820 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:51:31,834 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:52:31,867 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:53:31,867 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:54:31,884 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:55:31,882 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:56:31,899 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:57:31,977 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:58:31,915 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 19:59:31,952 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:00:31,977 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:01:31,982 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:02:32,001 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:03:32,019 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:04:32,034 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:05:32,033 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:06:32,049 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:07:32,062 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:08:32,076 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:09:32,091 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:10:32,117 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:11:32,115 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:12:32,132 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:13:32,149 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:14:32,180 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:15:32,170 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:16:32,188 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:17:32,200 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:18:32,219 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:19:32,236 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:20:33,001 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:21:33,264 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:22:32,965 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:23:32,698 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:24:32,305 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:25:32,319 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:26:32,332 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:27:32,345 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:28:32,359 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:29:32,372 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:30:32,385 
+线程ID:[17] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:31:32,399 
+线程ID:[17] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:32:32,412 
+线程ID:[17] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:33:32,425 
+线程ID:[17] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:34:32,438 
+线程ID:[18] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:35:32,452 
+线程ID:[19] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:36:32,465 
+线程ID:[19] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:37:32,478 
+线程ID:[19] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:38:32,492 
+线程ID:[19] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:39:32,505 
+线程ID:[19] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:40:32,518 
+线程ID:[20] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:41:32,532 
+线程ID:[17] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:42:32,545 
+线程ID:[17] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:43:32,558 
+线程ID:[17] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:44:32,572 
+线程ID:[17] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:45:32,585 
+线程ID:[17] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:46:32,598 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:47:32,611 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:48:32,625 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:49:32,638 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:50:32,651 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:51:32,665 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-08 20:52:32,678 
+线程ID:[22] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_saleflow'。
+   在 Kemai.MSG.DataAccess.MarketingDal.GetSaleFlow(DateTime BeginDate, DateTime endDate, Decimal saleAmt)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+ClientConnectionId:d81aba2a-7ced-4f85-a9f0-5336da1b1812
+Error Number:2812,State:62,Class:16

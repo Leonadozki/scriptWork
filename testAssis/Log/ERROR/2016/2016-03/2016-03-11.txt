@@ -1,0 +1,9 @@
+
+ 
+记录时间：2016-03-11 03:37:32,810 
+线程ID:[1] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：Scheduler stop failed: 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Kemai.MSG.Business.Jobs.QuartzServer.Stop()

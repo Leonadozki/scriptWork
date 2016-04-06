@@ -1,0 +1,538 @@
+
+ 
+记录时间：2016-03-04 10:59:21,390 
+线程ID:[1] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：LogOutBranch
+System.ServiceModel.CommunicationException: 服务器未提供有意义的回复；这可能是由协定不匹配、会话过早关闭或内部服务器错误引起的。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.LogonOut(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.LogOutBranch()
+
+ 
+记录时间：2016-03-04 11:12:27,421 
+线程ID:[7] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：LogInBranch
+System.ServiceModel.ProtocolException: 此通道已无法再用于发送消息，因为输出会话由于启动的服务器关机而自动关闭。通过将 DispatchRuntime.AutomaticInputSessionShutdown 设置为 false 来禁用自动关闭，或者考虑使用远程服务器修改关机协议。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.ServiceChannel.PrepareCall(ProxyOperationRuntime operation, Boolean oneway, ProxyRpc& rpc)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Kemai.O2O.Contract.IToOnlineService.Heart(String branchKey)
+   在 Kemai.MSG.Business.ClientLogin.LogInBranch()
+
+ 
+记录时间：2016-03-04 11:12:32,767 
+线程ID:[15] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.ProtocolException: 响应消息的内容类型 text/html; charset=utf-8 与绑定(application/soap+xml; charset=utf-8)的内容类型不匹配。如果使用自定义编码器，请确保正确实现 IsContentTypeSupported 方法。响应的前 1024 个字节为:“<!DOCTYPE html>
+<html>
+    <head>
+        <title>运行时错误</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px;”。 ---> System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ValidateRequestReplyResponse(HttpWebRequest request, HttpWebResponse response, HttpChannelFactory`1 factory, WebException responseException, ChannelBinding channelBinding)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-03-04 11:31:27,295 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 从数据类型 nvarchar 转换为 datetime 时出错。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:d3620211-a05f-4fb9-a499-fd630d0b8788
+Error Number:8114,State:5,Class:16
+
+ 
+记录时间：2016-03-04 11:31:51,597 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 从数据类型 nvarchar 转换为 datetime 时出错。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:d3620211-a05f-4fb9-a499-fd630d0b8788
+Error Number:8114,State:5,Class:16
+
+ 
+记录时间：2016-03-04 11:57:57,526 
+线程ID:[3] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 从数据类型 nvarchar 转换为 datetime 时出错。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:b55d0e34-06de-4db1-98ba-58b1bbc54f46
+Error Number:8114,State:5,Class:16
+
+ 
+记录时间：2016-03-04 12:51:21,752 
+线程ID:[17] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.ServiceModel.CommunicationException: 基础连接已经关闭: 服务器关闭了本应保持活动状态的连接。 ---> System.Net.WebException: 基础连接已经关闭: 服务器关闭了本应保持活动状态的连接。 ---> System.IO.IOException: 无法从传输连接中读取数据: 您的主机中的软件中止了一个已建立的连接。。 ---> System.Net.Sockets.SocketException: 您的主机中的软件中止了一个已建立的连接。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 Kemai.O2O.WCF.OperationInvoker.HandleException(Exception ex, ICommunicationObject channel)
+   在 Kemai.O2O.WCF.OperationInvoker.Invoke[TChanne,TResult](Func`2 serviceInvocation, TChanne channel)
+   在 Kemai.O2O.WCF.OperationInvoker`1.Invoke[TResult](Func`2 serviceInvocation)
+   在 Kemai.MSG.Business.MarketingLogic.GetMaketing(CustomerConfig model)
+   在 Kemai.MSG.Assistant.MainForm.maketingTime_Elapsed(Object sender, ElapsedEventArgs e)
+
+ 
+记录时间：2016-03-04 12:51:28,290 
+线程ID:[13] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：LogInBranch
+System.ServiceModel.CommunicationObjectFaultedException: 通信对象 System.ServiceModel.Channels.ServiceChannel 无法用于通信，因为其处于“出错”状态。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Close()
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 System.ServiceModel.ICommunicationObject.Close()
+   在 Kemai.MSG.Business.ClientLogin.LogInBranch()
+
+ 
+记录时间：2016-03-04 13:49:24,724 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束 'pk_kmmicro_pos_t_payflow_pre'。不能在对象 'dbo.kmmicro_pos_t_payflow_pre' 中插入重复键。
+语句已终止。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:a1bfefc1-2227-4e32-a7cc-f4f7e3d4b580
+Error Number:2627,State:1,Class:14
+
+ 
+记录时间：2016-03-04 13:49:38,198 
+线程ID:[16] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束 'pk_kmmicro_pos_t_payflow_pre'。不能在对象 'dbo.kmmicro_pos_t_payflow_pre' 中插入重复键。
+语句已终止。
+   在 Kemai.MSG.DataAccess.ItemDal.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String ProductionType)
+   在 Kemai.MSG.Business.MallLogic.RetailSettleOrder(MallOrder order, List`1 list, List`1 payOrder, String OperId, String CashNo)
+ClientConnectionId:a1bfefc1-2227-4e32-a7cc-f4f7e3d4b580
+Error Number:2627,State:1,Class:14
+
+ 
+记录时间：2016-03-04 13:51:54,148 
+线程ID:[13] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：LogInBranch
+System.ServiceModel.CommunicationObjectFaultedException: 通信对象 System.ServiceModel.Channels.ServiceChannel 无法用于通信，因为其处于“出错”状态。
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Close()
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 System.ServiceModel.ICommunicationObject.Close()
+   在 Kemai.MSG.Business.ClientLogin.LogInBranch()
+
+ 
+记录时间：2016-03-04 14:26:33,755 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 检索线下会员信息失败:会员卡号(9900000002)不存在
+   在 Kemai.MSG.DataAccess.VipDal.SelectOfficeVipType(String cardNo)
+   在 Kemai.MSG.Business.MemberLogic.SelectOfficeVipType(String cardNo)
+ClientConnectionId:7c204d39-7304-4a41-bc12-952af024b4b9
+Error Number:50000,State:1,Class:16
+
+ 
+记录时间：2016-03-04 15:00:05,928 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:e4b05f91-c1f5-48ee-b0ad-1e0c05132353
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 15:00:06,006 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:e4b05f91-c1f5-48ee-b0ad-1e0c05132353
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 15:00:06,037 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:e4b05f91-c1f5-48ee-b0ad-1e0c05132353
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 15:30:05,905 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:e4b05f91-c1f5-48ee-b0ad-1e0c05132353
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 15:30:05,936 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:e4b05f91-c1f5-48ee-b0ad-1e0c05132353
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 15:30:05,983 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:e4b05f91-c1f5-48ee-b0ad-1e0c05132353
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 15:31:50,606 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束 'PK_VIPRECHARGE'。不能在对象 'dbo.VipRecharge' 中插入重复键。
+线下登记会员卡号(WXSC0000001)业务操作流水失败(代码0)
+EXECUTE 后的事务计数指示 BEGIN 和 COMMIT 语句的数目不匹配。上一计数 = 0，当前计数 = 1。
+语句已终止。
+   在 Kemai.MSG.DataAccess.VipDal.FillMoneyToBranch(String vip_no, Decimal fillmoney, Decimal giveamount, String sheetNo, String cardbalance)
+   在 Kemai.MSG.Business.MemberLogic.FillMoneyToBranch(String vip_no, Decimal fillmoney, Decimal giveamount, String sheetNo)
+ClientConnectionId:e4b05f91-c1f5-48ee-b0ad-1e0c05132353
+Error Number:2627,State:1,Class:14
+
+ 
+记录时间：2016-03-04 15:33:55,105 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束 'PK_VIPRECHARGE'。不能在对象 'dbo.VipRecharge' 中插入重复键。
+线下登记会员卡号(WXSC0000001)业务操作流水失败(代码0)
+EXECUTE 后的事务计数指示 BEGIN 和 COMMIT 语句的数目不匹配。上一计数 = 0，当前计数 = 1。
+语句已终止。
+   在 Kemai.MSG.DataAccess.VipDal.FillMoneyToBranch(String vip_no, Decimal fillmoney, Decimal giveamount, String sheetNo, String cardbalance)
+   在 Kemai.MSG.Business.MemberLogic.FillMoneyToBranch(String vip_no, Decimal fillmoney, Decimal giveamount, String sheetNo)
+ClientConnectionId:e4b05f91-c1f5-48ee-b0ad-1e0c05132353
+Error Number:2627,State:1,Class:14
+
+ 
+记录时间：2016-03-04 16:00:05,923 
+线程ID:[19] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:e4b05f91-c1f5-48ee-b0ad-1e0c05132353
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 16:00:05,954 
+线程ID:[19] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:e4b05f91-c1f5-48ee-b0ad-1e0c05132353
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 16:00:06,001 
+线程ID:[19] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:e4b05f91-c1f5-48ee-b0ad-1e0c05132353
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 16:00:06,032 
+线程ID:[19] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束 'PK_VIPRECHARGE'。不能在对象 'dbo.VipRecharge' 中插入重复键。
+线下登记会员卡号(WXSC0000001)业务操作流水失败(代码0)
+EXECUTE 后的事务计数指示 BEGIN 和 COMMIT 语句的数目不匹配。上一计数 = 0，当前计数 = 1。
+语句已终止。
+   在 Kemai.MSG.DataAccess.VipDal.FillMoneyToBranch(String vip_no, Decimal fillmoney, Decimal giveamount, String sheetNo, String cardbalance)
+   在 Kemai.MSG.Business.MemberLogic.FillMoneyToBranch(String vip_no, Decimal fillmoney, Decimal giveamount, String sheetNo)
+ClientConnectionId:e4b05f91-c1f5-48ee-b0ad-1e0c05132353
+Error Number:2627,State:1,Class:14
+
+ 
+记录时间：2016-03-04 16:00:06,079 
+线程ID:[19] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束 'PK_VIPRECHARGE'。不能在对象 'dbo.VipRecharge' 中插入重复键。
+线下登记会员卡号(WXSC0000001)业务操作流水失败(代码0)
+EXECUTE 后的事务计数指示 BEGIN 和 COMMIT 语句的数目不匹配。上一计数 = 0，当前计数 = 1。
+语句已终止。
+   在 Kemai.MSG.DataAccess.VipDal.FillMoneyToBranch(String vip_no, Decimal fillmoney, Decimal giveamount, String sheetNo, String cardbalance)
+   在 Kemai.MSG.Business.MemberLogic.FillMoneyToBranch(String vip_no, Decimal fillmoney, Decimal giveamount, String sheetNo)
+ClientConnectionId:e4b05f91-c1f5-48ee-b0ad-1e0c05132353
+Error Number:2627,State:1,Class:14
+
+ 
+记录时间：2016-03-04 19:30:06,035 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:48b1b11d-4a58-44bb-9265-92b4849236cc
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 19:30:06,207 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:48b1b11d-4a58-44bb-9265-92b4849236cc
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 19:30:06,238 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:48b1b11d-4a58-44bb-9265-92b4849236cc
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 19:30:06,269 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:48b1b11d-4a58-44bb-9265-92b4849236cc
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 19:30:06,316 
+线程ID:[9] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:48b1b11d-4a58-44bb-9265-92b4849236cc
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 19:47:09,651 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_Pr_get_cashno'。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Kemai.MSG.Common.Data.DbHelperSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Kemai.MSG.Common.Data.DbHelperSQL.ExecuteDataset(CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Kemai.MSG.DataAccess.ItemDal.GetCashNoList()
+   在 Kemai.MSG.Business.MallLogic.GetCashNoList()
+ClientConnectionId:a3c7d149-cc09-447d-b1b0-d6fda2985219
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 19:53:12,564 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束 'PK_VIPRECHARGE'。不能在对象 'dbo.VipRecharge' 中插入重复键。
+线下登记会员卡号(WXSC0000001)业务操作流水失败(代码0)
+EXECUTE 后的事务计数指示 BEGIN 和 COMMIT 语句的数目不匹配。上一计数 = 0，当前计数 = 1。
+语句已终止。
+   在 Kemai.MSG.DataAccess.VipDal.FillMoneyToBranch(String vip_no, Decimal fillmoney, Decimal giveamount, String sheetNo, String cardbalance)
+   在 Kemai.MSG.Business.MemberLogic.FillMoneyToBranch(String vip_no, Decimal fillmoney, Decimal giveamount, String sheetNo)
+ClientConnectionId:a3c7d149-cc09-447d-b1b0-d6fda2985219
+Error Number:2627,State:1,Class:14
+
+ 
+记录时间：2016-03-04 20:00:05,990 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:a3c7d149-cc09-447d-b1b0-d6fda2985219
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 20:00:06,022 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:a3c7d149-cc09-447d-b1b0-d6fda2985219
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 20:00:06,053 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:a3c7d149-cc09-447d-b1b0-d6fda2985219
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 20:00:06,084 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:a3c7d149-cc09-447d-b1b0-d6fda2985219
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 20:00:06,131 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'kmmicro_pr_check_vipcostorder'。
+   在 Kemai.MSG.DataAccess.VipDal.CheckVipCostOrder(String vip_no, String sheetNo)
+   在 Kemai.MSG.Business.MemberLogic.CheckVipCostOrder(String vip_no, String sheetNo)
+ClientConnectionId:a3c7d149-cc09-447d-b1b0-d6fda2985219
+Error Number:2812,State:62,Class:16
+
+ 
+记录时间：2016-03-04 20:00:36,310 
+线程ID:[6] 
+日志级别：ERROR 
+出错类：RollingLogFileAppender property: [(null)] - 
+错误描述：System.Data.SqlClient.SqlException (0x80131904): Timeout 时间已到。在操作完成之前超时时间已过或服务器未响应。 ---> System.ComponentModel.Win32Exception (0x80004005): 等待的操作过时。
+   在 Kemai.MSG.DataAccess.VipDal.FillMoneyToBranch(String vip_no, Decimal fillmoney, Decimal giveamount, String sheetNo, String cardbalance)
+   在 Kemai.MSG.Business.MemberLogic.FillMoneyToBranch(String vip_no, Decimal fillmoney, Decimal giveamount, String sheetNo)
+ClientConnectionId:a3c7d149-cc09-447d-b1b0-d6fda2985219
+Error Number:-2,State:0,Class:11
